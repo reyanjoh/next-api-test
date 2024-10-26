@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 
 const getTeam = async () =>{
-  const res = await fetch(`${API}/staffs`)
+  const res = await fetch(`https://next-api-test-1da.pages.dev/api/hello`)
   return res.json()  
 }
 
