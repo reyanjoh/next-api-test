@@ -2,22 +2,22 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 
-// const getTeam = async () =>{
-//   const res = await fetch(`${process.env.API}/hello`)
-//   return res.json()  
-// }
+const getTeam = async () =>{
+  const res = await fetch(`${process.env.API}/hello`)
+  return res.json()  
+}
 
 export default async function Home() {
 
 
   
 
-// const team = await getTeam()
+const team = await getTeam()
 
   return (
     <main className={styles.main}>
 
-        {/* {team.map(team =>{
+        {team.map(team =>{
           return(
             <a key={team._id} href={`/staff/${team._id}`} className={styles.teamProfileCard}>
               <div className={styles.teamProfile}>
@@ -29,7 +29,7 @@ export default async function Home() {
               </div>
             </a>
           )
-        })} */}
+        })}
         {/* {{team.map(team =>{                  
           return(
             <a key={team._id} href={`/staff/${team._id}`} className={styles.teamProfileCard}>
