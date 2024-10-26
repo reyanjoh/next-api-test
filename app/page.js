@@ -16,7 +16,33 @@ const team = await getTeam()
 
   return (
     <main className={styles.main}>
-      {console.log(team)}
+
+        {team.map(team =>{
+          return(
+            <a key={team._id} href={`/staff/${team._id}`} className={styles.teamProfileCard}>
+              <div className={styles.teamProfile}>
+                <img src={team.profile} alt="" />
+              </div>
+              <div className={styles.teamInfo}>
+              <span className={styles.teamInfoSpanName}>{team.fName}, {team.lName}</span>
+              <span className={styles.teamInfoSpan}>{team.branchLocation}</span>
+              </div>
+            </a>
+          )
+        })}
+        {/* {{team.map(team =>{                  
+          return(
+            <a key={team._id} href={`/staff/${team._id}`} className={styles.teamProfileCard}>
+              <div className={styles.teamProfile}>
+                <img src={team.profile} alt="" />
+              </div>
+              <div className={styles.teamInfo}>
+              <span className={styles.teamInfoSpanName}>{team.fName}, {team.lName}</span>
+              <span className={styles.teamInfoSpan}>{team.branchLocation}</span>
+              </div>
+            </a>
+          )
+        })}} */}
     </main>
   );
 }
