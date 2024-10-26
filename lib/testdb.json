@@ -1,0 +1,61 @@
+
+{
+    "team": [
+        {
+            "id": 123,
+            "name": "Suheera, PT, DPT",
+            "position": "Physical Therapist",
+            "branchLocation": "FYZICAL Hoffman Estate",
+            "profile": "https://fyzicalchicago.com/wp-content/uploads/2024/09/Suheera-PT-DPT-800x800.png",
+            "bio": "Hi my name is Suheera and I graduated from Northern Illinois University. I became interested in PT due to the diversity of settings, patients, and specialties allowing me to learn and grow as a healthcare prover. I am working towards my Balance 2 course through FYZICAL and have experience working with TMJ disorders, vestibular rehabilitation, and have completed a mentorship in Orthopedics.",
+            "funFacts": [
+              "I have an orange cat named Kuzco",
+              "I was born in Pakistan",
+              "I am left-handed",
+              "I like cooking/taking care of my plants"
+            ]
+          },
+          {
+            "id": 234,
+            "name": "Michael, PT, DPT",
+            "position": "Physical Therapist",
+            "branchLocation": "FYZICAL Niles",
+            "profile": "https://fyzicalchicago.com/wp-content/uploads/2024/09/michael-pt-dpt-400x400.png",
+            "bio": "Hi, I`m Michael and I received my Bachelor of Science in Health Sciences and a Minor in Psychology from Saint Louis University. I received my Doctorate of Physical Therapy from the University of Illinois at Chicago. Throughout my life, I have always enjoyed helping out others and connecting with people of all different walks of life. I was introduced to the world of physical therapy through many close family member experiences. Through their journeys, I became fascinated by the field of physical therapy and how impactful this field can be on improving an indivual`s quality of life and physical health. For me, my passion for healthcare and physical therapy allows me to make a difference in patients` lives through the use of movement and education as medicine. Areas of expertise I would like to work towards in the future include balance/vestibular rehabilitation and Parkinson`s disease. I would like to gain certifications pertaining to these areas to improve my knowledge such as LSVT BIG certified and FYZICAL balance certified.",
+            "funFacts": [
+              "I enjoy long distance running, and I hope to run the Chicago Marathon soon",
+              "I backpacked and camped around Isle Royale National Park during high school",
+              "I used to be a barista at Starbucks during my college years"
+            ]
+          },
+          {
+            "id": 3456,
+            "name": "Eduardo, PTA",
+            "position": "Physical Therapist Assistant",
+            "branchLocation": "FYZICAL Buffalo Grove",
+            "profile": "https://fyzicalchicago.com/wp-content/uploads/2024/09/eduardo-pta-400x400.png",
+            "bio": "I have lived all my life in the best city, Chicago, and plan on never moving. I graduated from Robert Morris University, which is now Roosevelt University. I have played soccer the majority of my life and it has had a huge impact on who I am today. I tore my meniscus when I was playing high school soccer, and that`s where the development of love for physical therapy came into play. Being the main translator for my Spanish speaking parents and grandparents during doctor`s appointments, I have been able to experience the limited number of Spanish speaking workers in health care. This, all tied together with my love for sports, became the reasoning as to why I wanted to work in health care. I chose physical therapy because experiencing it first-hand myself, I enjoyed the attention to detail to patient care. I enjoy helping others and giving them a reason to smile again when most of their hope is down.",
+            "funFacts": [
+              "I love sports",
+              "I was recruited to play in various European soccer tournaments when I was 14",
+              "I have the best dog ever named 'Chato' "
+            ],
+            "education": [
+              "Robert Morris University - Bachelor in Allied Health with a concentration in Exercise Science Sports",
+              "Malcom X College - Associate in Physical Therapy Assistant"
+            ]
+          },
+          {
+              "id": 567,
+              "name": "Suheera, PT, DPT",
+              "position": "Physical Therapist",
+              "branchLocation": "FYZICAL Hoffman Estate",
+              "profile": "https://fyzicalchicago.com/wp-content/uploads/2024/09/Suheera-PT-DPT-800x800.png",
+              "bio": "Hi my name is Suheera and I graduated from Northern Illinois University. I became interested in PT due to the diversity of settings, patients, and specialties allowing me to learn and grow as a healthcare prover. I am working towards my Balance 2 course through FYZICAL and have experience working with TMJ disorders, vestibular rehabilitation, and have completed a mentorship in Orthopedics.",
+              "education": [
+              "Robert Morris University - Bachelor in Allied Health with a concentration in Exercise Science Sports",
+              "Malcom X College - Associate in Physical Therapy Assistant"
+            ]
+            }
+    ]
+}
