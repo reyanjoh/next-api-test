@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 
 const getTeam = async () =>{
-  const res = await fetch(`/api/hello`)
+  const res = await fetch(`${process.env.API}/hello`)
   return res.json()  
 }
 
