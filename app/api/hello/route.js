@@ -4,7 +4,7 @@ import Staff from "@/lib/models/staff"
 import {connect} from '@/lib/db'
 import { NextResponse } from "next/server"
 
-export const runtime = 'edge'
+// export const runtime = 'edge'
 
 
 export const GET = async () =>{
